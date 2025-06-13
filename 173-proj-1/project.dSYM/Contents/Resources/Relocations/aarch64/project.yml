@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/tomyanzhiyuan/GitHub/173-proj-1/project'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createDFA, symObjAddr: 0x0, symBinAddr: 0x10000173C, symSize: 0xF4 }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _createDFA, symObjAddr: 0x0, symBinAddr: 0x10000173C, symSize: 0xF4 }
+  - { offsetInCU: 0xD2, offset: 0xD2, size: 0x8, addend: 0x0, symName: _addTransitionDFA, symObjAddr: 0xF4, symBinAddr: 0x100001830, symSize: 0x38 }
+  - { offsetInCU: 0x120, offset: 0x120, size: 0x8, addend: 0x0, symName: _runDFA, symObjAddr: 0x12C, symBinAddr: 0x100001868, symSize: 0x1E8 }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _dfaREPL, symObjAddr: 0x314, symBinAddr: 0x100001A50, symSize: 0x1B8 }
+  - { offsetInCU: 0x1EB, offset: 0x1EB, size: 0x8, addend: 0x0, symName: _DFAForContainsXYZZY, symObjAddr: 0x4CC, symBinAddr: 0x100001C08, symSize: 0x310 }
+  - { offsetInCU: 0x259, offset: 0x259, size: 0x8, addend: 0x0, symName: _DFASubsequence987, symObjAddr: 0x7DC, symBinAddr: 0x100001F18, symSize: 0x1E8 }
+  - { offsetInCU: 0x2C7, offset: 0x2C7, size: 0x8, addend: 0x0, symName: _DFA4s, symObjAddr: 0x9C4, symBinAddr: 0x100002100, symSize: 0x28C }
+  - { offsetInCU: 0x335, offset: 0x335, size: 0x8, addend: 0x0, symName: _DFAForBinaryParity, symObjAddr: 0xC50, symBinAddr: 0x10000238C, symSize: 0xF4 }
+  - { offsetInCU: 0x36B, offset: 0x36B, size: 0x8, addend: 0x0, symName: _createNFA, symObjAddr: 0xD44, symBinAddr: 0x100002480, symSize: 0x10C }
+  - { offsetInCU: 0x3F5, offset: 0x3F5, size: 0x8, addend: 0x0, symName: _addTransitionNFA, symObjAddr: 0xE50, symBinAddr: 0x10000258C, symSize: 0x7C }
+  - { offsetInCU: 0x443, offset: 0x443, size: 0x8, addend: 0x0, symName: _addEpsilonTransition, symObjAddr: 0xECC, symBinAddr: 0x100002608, symSize: 0x68 }
+  - { offsetInCU: 0x483, offset: 0x483, size: 0x8, addend: 0x0, symName: _runNFA, symObjAddr: 0xF34, symBinAddr: 0x100002670, symSize: 0x260 }
+  - { offsetInCU: 0x54B, offset: 0x54B, size: 0x8, addend: 0x0, symName: _nfaREPL, symObjAddr: 0x1194, symBinAddr: 0x1000028D0, symSize: 0x19C }
+  - { offsetInCU: 0x5AC, offset: 0x5AC, size: 0x8, addend: 0x0, symName: _NFAStringsEndingInGH, symObjAddr: 0x1330, symBinAddr: 0x100002A6C, symSize: 0x140 }
+  - { offsetInCU: 0x602, offset: 0x602, size: 0x8, addend: 0x0, symName: _NFAStringsContainingMoo, symObjAddr: 0x1470, symBinAddr: 0x100002BAC, symSize: 0x198 }
+  - { offsetInCU: 0x6AF, offset: 0x6AF, size: 0x8, addend: 0x0, symName: _NFASpecialString, symObjAddr: 0x1608, symBinAddr: 0x100002D44, symSize: 0x268 }
+  - { offsetInCU: 0x722, offset: 0x722, size: 0x8, addend: 0x0, symName: _contains, symObjAddr: 0x1870, symBinAddr: 0x100002FAC, symSize: 0x9C }
+  - { offsetInCU: 0x778, offset: 0x778, size: 0x8, addend: 0x0, symName: _equalSets, symObjAddr: 0x190C, symBinAddr: 0x100003048, symSize: 0xD8 }
+  - { offsetInCU: 0x7CE, offset: 0x7CE, size: 0x8, addend: 0x0, symName: _findDFAState, symObjAddr: 0x19E4, symBinAddr: 0x100003120, symSize: 0x98 }
+  - { offsetInCU: 0x833, offset: 0x833, size: 0x8, addend: 0x0, symName: _isNFAFinalState, symObjAddr: 0x1A7C, symBinAddr: 0x1000031B8, symSize: 0xA0 }
+  - { offsetInCU: 0x889, offset: 0x889, size: 0x8, addend: 0x0, symName: _epsilonClosure, symObjAddr: 0x1B1C, symBinAddr: 0x100003258, symSize: 0x134 }
+  - { offsetInCU: 0x939, offset: 0x939, size: 0x8, addend: 0x0, symName: _createDFAForStringsEndingInGH, symObjAddr: 0x1C50, symBinAddr: 0x10000338C, symSize: 0x12C }
+  - { offsetInCU: 0x98F, offset: 0x98F, size: 0x8, addend: 0x0, symName: _NFA_to_DFA, symObjAddr: 0x1D7C, symBinAddr: 0x1000034B8, symSize: 0x4C0 }
+  - { offsetInCU: 0xB6A, offset: 0xB6A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x223C, symBinAddr: 0x100003978, symSize: 0x1A0 }
+...
